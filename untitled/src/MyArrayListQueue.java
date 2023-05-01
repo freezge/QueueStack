@@ -12,6 +12,6 @@ public class MyArrayListQueue {
         return true;
     }
     public int size(){
-        return 0;
+        return queue.size();
     }
 }
