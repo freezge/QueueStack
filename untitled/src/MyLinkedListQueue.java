@@ -12,7 +12,7 @@ public class MyLinkedListQueue {
         return false;
     }
     public int size(){
-        return 0;
+        return queue.size();
     }
 
 }
