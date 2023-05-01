@@ -4,7 +4,7 @@ public class MyArrayListQueue {
     public void enqueue(Object o){
         queue.add(o);
     }
-    public Object dequeue(Object o){
+    public Object dequeue(){
         Object buff = queue.get(0);
         queue.remove(0);
         return buff;
@@ -13,7 +13,7 @@ public class MyArrayListQueue {
         return queue.get(0);
     }
     public boolean isEmpty(){
-        return true;
+        return queue.size() == 0;
     }
     public int size(){
         return queue.size();
