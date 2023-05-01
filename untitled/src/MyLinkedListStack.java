@@ -5,7 +5,9 @@ public class MyLinkedListStack {
         stack.add(o);
     }
     public Object pop(){
-        return null;
+        Object buff = stack.get(stack.size() - 1);
+        stack.remove(stack.size() - 1);
+        return buff;
     }
     public Object peek(){
         return null;
