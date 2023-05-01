@@ -13,7 +13,7 @@ public class MyLinkedListQueue {
         return queue.get(0);
     }
     public boolean isEmpty(){
-        return false;
+        return queue.size() == 0;
     }
     public int size(){
         return queue.size();
