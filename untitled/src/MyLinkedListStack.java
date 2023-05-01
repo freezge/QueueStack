@@ -1,21 +1,21 @@
 public class MyLinkedListStack {
-    MyLinkedListStack(){}
-    private MyLinkedList stack = new MyLinkedList();
-    public void push(Object o){
+    MyLinkedListStack(){}//constructor for MyLinkedListStack
+    private MyLinkedList stack = new MyLinkedList();//create an instance of LinkedList
+    public void push(Object o){//adds new element to the end of stack
         stack.add(o);
     }
-    public Object pop(){
-        Object buff = stack.get(stack.size() - 1);
-        stack.remove(stack.size() - 1);
-        return buff;
+    public Object pop(){//removes the top element of the stack
+        Object buff = stack.get(stack.size() - 1);//to save element
+        stack.remove(stack.size() - 1);//removing top element
+        return buff;//returns removed element
     }
-    public Object peek(){
-        return stack.get(stack.size() - 1);
+    public Object peek(){//to get top elem of stack
+        return stack.get(stack.size() - 1);//returns top elem of stack
     }
-    public boolean isEmpty(){
-        return stack.size() == 0;
+    public boolean isEmpty(){//to check if stack is empty
+        return stack.size() == 0;//if size = 0 stack is empty
     }
-    public int size(){
-        return stack.size();
+    public int size(){//method to get size of stack
+        return stack.size();//returns size of stack
     }
 }
