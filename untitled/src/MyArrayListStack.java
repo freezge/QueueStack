@@ -10,7 +10,7 @@ public class MyArrayListStack {
         return buff;
     }
     public Object peek(){
-        return null;
+        return stack.get(stack.size() - 1);
     }
     public boolean isEmpty(){
         return true;
