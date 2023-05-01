@@ -10,7 +10,7 @@ public class MyLinkedListQueue {
         return buff;
     }
     public Object peek(){
-        return null;
+        return queue.get(0);
     }
     public boolean isEmpty(){
         return false;
