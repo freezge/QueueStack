@@ -13,7 +13,7 @@ public class MyArrayListStack {
         return stack.get(stack.size() - 1);
     }
     public boolean isEmpty(){
-        return true;
+        return stack.size() == 0;
     }
     public int size(){
         return 0;
