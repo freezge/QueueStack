@@ -5,7 +5,9 @@ public class MyLinkedListQueue {
         queue.add(o);
     }
     public Object dequeue(){
-        return null;
+        Object buff = queue.get(0);
+        queue.remove(0);
+        return buff;
     }
     public Object peek(){
         return null;
