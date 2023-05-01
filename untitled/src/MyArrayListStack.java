@@ -1,7 +1,9 @@
 public class MyArrayListStack {
     MyArrayListStack(){}
     private MyArrayList stack = new MyArrayList();
-    public void push(Object o){}
+    public void push(Object o){
+        stack.add(o);
+    }
     public Object pop(){
         return null;
     }
