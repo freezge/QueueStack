@@ -2,7 +2,7 @@ public class MyArrayListQueue {
     MyArrayListQueue(){}
     private MyArrayList queue = new MyArrayList();
     public void enqueue(Object o){
-
+        queue.add(o);
     }
     public Object dequeue(Object o){
         return null;
