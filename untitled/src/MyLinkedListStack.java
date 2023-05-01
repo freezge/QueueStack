@@ -16,6 +16,6 @@ public class MyLinkedListStack {
         return stack.size() == 0;
     }
     public int size(){
-        return 0;
+        return stack.size();
     }
 }
