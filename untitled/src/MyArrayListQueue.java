@@ -5,7 +5,9 @@ public class MyArrayListQueue {
         queue.add(o);
     }
     public Object dequeue(Object o){
-        return null;
+        Object buff = queue.get(0);
+        queue.remove(0);
+        return buff;
     }
     public Object peek(){
         return queue.get(0);
