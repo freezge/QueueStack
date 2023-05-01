@@ -5,7 +5,9 @@ public class MyArrayListStack {
         stack.add(o);
     }
     public Object pop(){
-        return null;
+        Object buff = stack.get(0);
+        stack.remove(0);
+        return buff;
     }
     public Object peek(){
         return null;
