@@ -1,7 +1,9 @@
 public class MyLinkedListStack {
     MyLinkedListStack(){}
     private MyLinkedList stack = new MyLinkedList();
-    public void push(Object o){}
+    public void push(Object o){
+        stack.add(o);
+    }
     public Object pop(){
         return null;
     }
